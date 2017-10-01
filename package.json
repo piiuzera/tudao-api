@@ -1,0 +1,33 @@
+{
+  "name": "tudao-api",
+  "version": "1.0.0",
+  "description": "Aplicativo para fornecimento de cola para alunos em geral",
+  "main": "Server.js",
+  "scripts": {
+    "test": "node Server.js"
+  },
+  "keywords": [
+    "tudao",
+    "amarocorp",
+    "mna",
+    "piiuzera"
+  ],
+  "author": "Matheus Amaro (matheus.amaro@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^8.0.1",
+    "mongodb": "^2.2.31",
+    "mongojs": "^2.4.1",
+    "mongoose": "^4.11.12",
+    "request": "^2.83.0",
+    "sequelize": "^4.10.3",
+    "string-format": "^0.5.0",
+    "validatorjs": "^3.13.5"
+  }
+}
